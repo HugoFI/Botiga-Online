@@ -1,6 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    object-fit: cover;
+    width: 25%;
+}
 .column-4{
     display: flex;
-    width: 25%;
+    object-fit: cover;
+    float: left;
+    padding: 2%;
 }
 img{
     width: 500px;
