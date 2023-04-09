@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+body{
+    text-align: center;
+}
 .row{
     display: flex;
     object-fit: cover;
@@ -13,6 +16,19 @@
     padding: 2%;
 }
 img{
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
+}
+button{
+    margin: auto;
+    display: flex;
+    background-color: black;
+    border-radius: 6px;
+    padding: 0.1px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border-color: red;
+    color: white;
 }
