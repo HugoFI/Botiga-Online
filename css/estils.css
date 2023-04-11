@@ -32,3 +32,16 @@ button{
     border-color: red;
     color: white;
 }
+@media screen and (max-width:800px){
+    html{
+        display: flex;
+        flex-direction: row;
+        object-fit: cover;
+        float: left;
+        flex-wrap: wrap;
+        padding: 2%;
+    }
+    .column-4{
+
+    }
+}
