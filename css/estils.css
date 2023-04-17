@@ -1,23 +1,47 @@
 *{
     box-sizing: border-box;
 }
+html{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 60px;
+}
 body{
+    text-align: center;
+    background-color: rgb(140, 175, 240);
+}
+h1{
+    font-size: 0.8rem;
+}
+h2{
+    font-size: 0.6rem;
+}
+h3{
+    font-size: 0.4rem;
+}
+p{
+    font-size: 0.3rem;
+}
+header{
     text-align: center;
 }
 .row{
     display: flex;
     object-fit: cover;
     width: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .column-4{
     display: flex;
     object-fit: cover;
     float: left;
-    padding: 2%;
+    padding: 5%;
 }
 img{
     width: 300px;
     height: 300px;
+    border-radius: 10px;
+	border: 3px solid #000000;
 }
 button{
     margin: auto;
@@ -34,6 +58,20 @@ button{
 }
 @media screen and (max-width:800px){
     html{
+        font-size: 45px;
+    }
+    body{
+        text-align: center;
+        background-color: rgb(140, 175, 240);
+    }
+    .row{
+        display: flex;
+        object-fit: cover;
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .column-4{
         display: flex;
         flex-direction: row;
         object-fit: cover;
@@ -41,7 +79,37 @@ button{
         flex-wrap: wrap;
         padding: 2%;
     }
+    img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:600px){
+    html{
+        font-size: 30px;
+    }
+    body{
+        text-align: center;
+        background-color: rgb(140, 175, 240);
+    }
+    .row{
+        display: flex;
+        object-fit: cover;
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     .column-4{
+        display: flex;
+        flex-direction: row;
+        object-fit: cover;
+        float: left;
+        flex-wrap: wrap;
+        padding: 2%;
 
+    }
+    img{
+        width: 150px;
+        height: 150px;
     }
 }

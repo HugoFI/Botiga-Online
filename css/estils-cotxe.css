@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 60px;
+}
+body{
+    padding: 2%;
+    background-color: rgb(140, 175, 240);
+    margin-top: -1%;
+}
+header{
+    text-align: center;
+}
+h1{
+    font-size: 0.8rem;
+}
+h2{
+    font-size: 0.6rem;
+}
+h3{
+    font-size: 0.4rem;
+}
+h5{
+    font-size: 0.5rem;
+}
+p{
+    font-size: 0.3rem;
+}
+img{
+    width: 680px;
+    border-radius: 10px;
+    border: 3px solid #000000;
+}
+.cotxe{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(169, 215, 255);
+    border-radius: 10px;
+    padding: 2%;
+    border: solid 5px black;
+}
+.img-cotxe{
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.dades-cotxe{
+    padding: 1%;
+    margin-bottom: -5%;
+}
+.descripcio{
+    text-align: center;
+}
+footer{
+    padding: 2%;
+}
+button{
+    margin: auto;
+    display: flex;
+    background-color: rgb(41, 41, 255);
+    border-radius: 6px;
+    padding: 0.1px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: -10px;
+    padding-right: 5px;
+    border: solid 3px;
+    border-color: white;
+    color: white;
+    font-size: 0.4rem;
+}
+@media screen and (max-width:1200px){
+    html{
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 55px;
+    }
+    body{
+        text-align: center;
+    }
+    .cotxe{
+        display: block;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        border: solid 5px black;
+    }
+    img{
+        width: 70%;
+    }
+    .img-cotxe{
+        margin: 0%;
+    }
+}
+@media screen and (max-width:800px){
+    html{
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 55px;
+    }
+    body{
+        text-align: center;
+    }
+    .cotxe{
+        display: block;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        border: solid 5px black;
+    }
+    img{
+        width: 70%;
+    }
+    .img-cotxe{
+        margin: 0%;
+    }
+}
+@media screen and (max-width:800px){
+    html{
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 45px;
+    }
+    body{
+        text-align: center;
+    }
+    .cotxe{
+        display: block;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        border: solid 5px black;
+    }
+    img{
+        width: 70%;
+    }
+    .img-cotxe{
+        margin: 0%;
+    }
+}
