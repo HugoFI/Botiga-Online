@@ -8,6 +8,8 @@ html{
 body{
     text-align: center;
     background-color: rgb(140, 175, 240);
+    margin: 0%;
+    padding: 0%;
 }
 h1{
     font-size: 0.8rem;
@@ -56,28 +58,26 @@ button{
     border-color: red;
     color: white;
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:768px){
     html{
         font-size: 45px;
     }
     body{
         text-align: center;
         background-color: rgb(140, 175, 240);
+        margin: 0%;
+        padding: 0%;
     }
     .row{
         display: flex;
         object-fit: cover;
-        width: 40%;
-        margin-left: 5%;
-        margin-right: 5%;
+        flex: 50%;
     }
     .column-4{
-        display: flex;
-        flex-direction: row;
+        display: block;
         object-fit: cover;
         float: left;
         flex-wrap: wrap;
-        padding: 2%;
     }
     img{
         width: 200px;
